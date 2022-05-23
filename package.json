@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Minimal todo app example.",
+  "main": "script.js",
+  "scripts": {
+    "serve": "serve ./src",
+    "e2e": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingMaxim/e2e-testing-todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingMaxim/e2e-testing-todo-app/issues"
+  },
+  "homepage": "https://github.com/codingMaxim/e2e-testing-todo-app#readme",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  },
+  "dependencies": {
+    "cypress": "^9.6.1"
+  }
+}
